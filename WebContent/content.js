@@ -200,6 +200,8 @@ function init(data) {
 				optionsElement.addEventListener("click", function() {
 					window.open(chrome.extension.getURL("options.html"));
 				}, false);
+				shortcut.add("Ctrl+Shift+E", function() { expandElement.click() });
+				shortcut.add("Ctrl+Shift+R", function() { reduceElement.click() });
 			} else if (msg.json)
 				port.postMessage({
 					getError : true,
