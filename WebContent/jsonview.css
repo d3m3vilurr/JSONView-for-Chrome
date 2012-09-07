@@ -1,41 +1,55 @@
 body {
+  background: #002b36 !important;
+  color: #eee8d5 !important;
   white-space: pre;
   font-family: monospace;
 }
 
+a {
+  color: #ff73fd !important;
+}
+
+a:hover {
+  color: #ff73fd !important;
+}
+
 .property {
+  color: #268bd2 !important;
   font-weight: bold;
 }
 
 .type-null {
-  color: gray;
+  color: #cfcb90 !important;
 }
 
 .type-boolean {
-  color: firebrick;
+  color: #cfcb90 !important;
 }
 
 .type-number {
-  color: blue;
+  color: #ff73fd !important;
 }
 
 .type-string {
-  color: green;
+  color: #db3380 !important;
 }
 
 .callback-function {
-  color: gray;
+  color: #fff !important;
 }
 
 .collapser:after {
+  color: #e9c062 !important;
   content: "-";
 }
 
 .collapsed > .collapser:after {
+  color: #e9c062 !important;
   content: "+";
 }
 
 .ellipsis:after {
+  color: #e9c062 !important;
   content: " … ";
 }
 
@@ -52,7 +66,8 @@ body {
 }
 
 .hovered {
-  background-color: rgba(235, 238, 249, 1);  
+  background-color: #eee8d5;
+  color: #002b36;
 }
 
 .collapser {
